@@ -1,0 +1,44 @@
+/* General page styles */
+body {
+    background-color: #f4f4f4; /* Sets the page background color */
+    font-family: Arial, sans-serif; /* Sets a clean, standard font */
+    color: #333; /* Sets a dark grey text color for better readability */
+    line-height: 1.6; /* Adds vertical space between lines of text */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Styles for main headings */
+h1 {
+    color: #2c3e50; /* A professional dark blue shade */
+    text-align: center; /* Centers the heading text */
+    font-size: 2.5rem;
+}
+
+/* Styles for paragraphs */
+p {
+    margin-bottom: 15px; /* Adds space below each paragraph */
+    font-size: 1.1rem;
+}
+
+/* Styles for a custom class (e.g., a card or box) */
+.card {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px; /* Rounds the corners of the box */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}
+
+/* Styles for a specific ID */
+#main-button {
+    background-color: #3498db; /* A bright blue color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; /* Changes the mouse cursor to a hand on hover */
+}
+
+#main-button:hover {
+    background-color: #2980b9; /* Darkens the button when hovered */
+}
